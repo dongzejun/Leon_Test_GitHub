@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint repositoryDemoLeon.podspec' to ensure this is a
+#  Be sure to run `pod spec lint LeonCommonFunctionsDemo.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "repositoryDemoLeon"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of repositoryDemoLeon."
+  s.name         = "LeonCommonFunctionsDemo"
+  s.version      = “1.0.0”
+  s.summary      = "Leon CommonFunctions Demo."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, “9.0”
+  s.platform     = :ios, “9.0”
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/dongzejun/Leon_Test_GitHub.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/dongzejun/Leon_Test_GitHub.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "LeonCommonFunctionsDemo", "LeonCommonFunctionsDemo/**/*.{h,m}"
+  s.exclude_files = "LeonCommonFunctionsDemo/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -128,7 +128,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = false
+  # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
