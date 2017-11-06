@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3143AD9C1DF01E26003FDF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143AD9B1DF01E26003FDF97 /* main.m */; };
+		3143AD9F1DF01E26003FDF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143AD9E1DF01E26003FDF97 /* AppDelegate.m */; };
+		3143ADA21DF01E27003FDF97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADA11DF01E27003FDF97 /* ViewController.m */; };
+		3143ADA51DF01E27003FDF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADA31DF01E27003FDF97 /* Main.storyboard */; };
+		3143ADA71DF01E27003FDF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADA61DF01E27003FDF97 /* Assets.xcassets */; };
+		3143ADAA1DF01E27003FDF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADA81DF01E27003FDF97 /* LaunchScreen.storyboard */; };
+		3143ADB51DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADB41DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests.m */; };
+		3143ADC51DF021BF003FDF97 /* LeonTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADC41DF021BF003FDF97 /* LeonTagsView.m */; };
+		3143ADCC1DF02321003FDF97 /* LeonTestLeonTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADCA1DF02321003FDF97 /* LeonTestLeonTagsViewController.m */; };
+		3143ADCD1DF02321003FDF97 /* LeonTestLeonTagsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADCB1DF02321003FDF97 /* LeonTestLeonTagsViewController.xib */; };
+		3143ADD21DF04C84003FDF97 /* LeonMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADD01DF04C84003FDF97 /* LeonMainViewController.m */; };
+		3143ADD31DF04C84003FDF97 /* LeonMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADD11DF04C84003FDF97 /* LeonMainViewController.xib */; };
+		3520806B1E1388EF0019568F /* LeonTestSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520806A1E1388EF0019568F /* LeonTestSwiftViewController.swift */; };
+		35209D651F1CAAAA00ACDEB7 /* LeonTestAttributedStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35209D641F1CAAAA00ACDEB7 /* LeonTestAttributedStringViewController.m */; };
+		35209D741F1F085300ACDEB7 /* Leon_ParentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35209D731F1F085300ACDEB7 /* Leon_ParentController.m */; };
+		35209D771F1F0A0600ACDEB7 /* Leon_GCDFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35209D761F1F0A0600ACDEB7 /* Leon_GCDFunctionController.m */; };
+		3541C94C1F442CDB00F7C85F /* Leon_TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3541C94B1F442CDB00F7C85F /* Leon_TagsViewController.swift */; };
+		3541C94E1F44408B00F7C85F /* Leon_TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3541C94D1F44408B00F7C85F /* Leon_TagsView.swift */; };
+		35EC24471DF1217800B6E5A8 /* LeonTestLeonTagsNotXIBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC24461DF1217800B6E5A8 /* LeonTestLeonTagsNotXIBCell.m */; };
+		35EC244B1DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC24491DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.m */; };
+		35EC244C1DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35EC244A1DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3143ADB11DF01E27003FDF97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3143AD8F1DF01E26003FDF97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3143AD961DF01E26003FDF97;
+			remoteInfo = LeonCommonFunctionsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3143AD971DF01E26003FDF97 /* LeonCommonFunctionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeonCommonFunctionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3143AD9B1DF01E26003FDF97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3143AD9D1DF01E26003FDF97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3143AD9E1DF01E26003FDF97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3143ADA01DF01E27003FDF97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3143ADA11DF01E27003FDF97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3143ADA41DF01E27003FDF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3143ADA61DF01E27003FDF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3143ADA91DF01E27003FDF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3143ADAB1DF01E27003FDF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3143ADB01DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeonCommonFunctionsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3143ADB41DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeonCommonFunctionsDemoUITests.m; sourceTree = "<group>"; };
+		3143ADB61DF01E27003FDF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3143ADC31DF021BF003FDF97 /* LeonTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeonTagsView.h; sourceTree = "<group>"; };
+		3143ADC41DF021BF003FDF97 /* LeonTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeonTagsView.m; sourceTree = "<group>"; };
+		3143ADC91DF02321003FDF97 /* LeonTestLeonTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeonTestLeonTagsViewController.h; sourceTree = "<group>"; };
+		3143ADCA1DF02321003FDF97 /* LeonTestLeonTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeonTestLeonTagsViewController.m; sourceTree = "<group>"; };
+		3143ADCB1DF02321003FDF97 /* LeonTestLeonTagsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeonTestLeonTagsViewController.xib; sourceTree = "<group>"; };
+		3143ADCF1DF04C84003FDF97 /* LeonMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeonMainViewController.h; sourceTree = "<group>"; };
+		3143ADD01DF04C84003FDF97 /* LeonMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeonMainViewController.m; sourceTree = "<group>"; };
+		3143ADD11DF04C84003FDF97 /* LeonMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeonMainViewController.xib; sourceTree = "<group>"; };
+		3143ADD51DF0551E003FDF97 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		352080691E1388EE0019568F /* LeonCommonFunctionsDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeonCommonFunctionsDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3520806A1E1388EF0019568F /* LeonTestSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeonTestSwiftViewController.swift; sourceTree = "<group>"; };
+		35209D631F1CAAAA00ACDEB7 /* LeonTestAttributedStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeonTestAttributedStringViewController.h; sourceTree = "<group>"; };
+		35209D641F1CAAAA00ACDEB7 /* LeonTestAttributedStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeonTestAttributedStringViewController.m; sourceTree = "<group>"; };
+		35209D721F1F085300ACDEB7 /* Leon_ParentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leon_ParentController.h; sourceTree = "<group>"; };
+		35209D731F1F085300ACDEB7 /* Leon_ParentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leon_ParentController.m; sourceTree = "<group>"; };
+		35209D751F1F0A0600ACDEB7 /* Leon_GCDFunctionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leon_GCDFunctionController.h; sourceTree = "<group>"; };
+		35209D761F1F0A0600ACDEB7 /* Leon_GCDFunctionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leon_GCDFunctionController.m; sourceTree = "<group>"; };
+		3541C94B1F442CDB00F7C85F /* Leon_TagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leon_TagsViewController.swift; sourceTree = "<group>"; };
+		3541C94D1F44408B00F7C85F /* Leon_TagsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leon_TagsView.swift; sourceTree = "<group>"; };
+		35EC24451DF1217800B6E5A8 /* LeonTestLeonTagsNotXIBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeonTestLeonTagsNotXIBCell.h; sourceTree = "<group>"; };
+		35EC24461DF1217800B6E5A8 /* LeonTestLeonTagsNotXIBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeonTestLeonTagsNotXIBCell.m; sourceTree = "<group>"; };
+		35EC24481DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeonTestLeonTagsViewXIBCell.h; sourceTree = "<group>"; };
+		35EC24491DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeonTestLeonTagsViewXIBCell.m; sourceTree = "<group>"; };
+		35EC244A1DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeonTestLeonTagsViewXIBCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3143AD941DF01E26003FDF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3143ADAD1DF01E27003FDF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3143AD8E1DF01E26003FDF97 = {
+			isa = PBXGroup;
+			children = (
+				3143AD991DF01E26003FDF97 /* LeonCommonFunctionsDemo */,
+				3143ADB31DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests */,
+				3143AD981DF01E26003FDF97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3143AD981DF01E26003FDF97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3143AD971DF01E26003FDF97 /* LeonCommonFunctionsDemo.app */,
+				3143ADB01DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3143AD991DF01E26003FDF97 /* LeonCommonFunctionsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35209D711F1F082000ACDEB7 /* ParentVC */,
+				35209D701F1F06C900ACDEB7 /* GCDDemo */,
+				35209D621F1CAAAA00ACDEB7 /* Leon_NSAttributedString_NSMutableAttributedString_NSMutableParagraphStyle */,
+				3143ADCE1DF04C67003FDF97 /* LeonMainVC */,
+				3143ADC21DF02115003FDF97 /* LeonTagsView */,
+				3143AD9D1DF01E26003FDF97 /* AppDelegate.h */,
+				3143AD9E1DF01E26003FDF97 /* AppDelegate.m */,
+				3520806A1E1388EF0019568F /* LeonTestSwiftViewController.swift */,
+				3143ADD51DF0551E003FDF97 /* PrefixHeader.pch */,
+				3143ADA01DF01E27003FDF97 /* ViewController.h */,
+				3143ADA11DF01E27003FDF97 /* ViewController.m */,
+				3143ADA31DF01E27003FDF97 /* Main.storyboard */,
+				3143ADA61DF01E27003FDF97 /* Assets.xcassets */,
+				3143ADA81DF01E27003FDF97 /* LaunchScreen.storyboard */,
+				3143ADAB1DF01E27003FDF97 /* Info.plist */,
+				3143AD9A1DF01E26003FDF97 /* Supporting Files */,
+				352080691E1388EE0019568F /* LeonCommonFunctionsDemo-Bridging-Header.h */,
+			);
+			path = LeonCommonFunctionsDemo;
+			sourceTree = "<group>";
+		};
+		3143AD9A1DF01E26003FDF97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3143AD9B1DF01E26003FDF97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3143ADB31DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3143ADB41DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests.m */,
+				3143ADB61DF01E27003FDF97 /* Info.plist */,
+			);
+			path = LeonCommonFunctionsDemoUITests;
+			sourceTree = "<group>";
+		};
+		3143ADC21DF02115003FDF97 /* LeonTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				3541C94A1F442CC800F7C85F /* Swift版本 */,
+				3143ADC91DF02321003FDF97 /* LeonTestLeonTagsViewController.h */,
+				3143ADCA1DF02321003FDF97 /* LeonTestLeonTagsViewController.m */,
+				3143ADCB1DF02321003FDF97 /* LeonTestLeonTagsViewController.xib */,
+				35EC24451DF1217800B6E5A8 /* LeonTestLeonTagsNotXIBCell.h */,
+				35EC24461DF1217800B6E5A8 /* LeonTestLeonTagsNotXIBCell.m */,
+				35EC24481DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.h */,
+				35EC24491DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.m */,
+				35EC244A1DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.xib */,
+				3143ADC31DF021BF003FDF97 /* LeonTagsView.h */,
+				3143ADC41DF021BF003FDF97 /* LeonTagsView.m */,
+			);
+			path = LeonTagsView;
+			sourceTree = "<group>";
+		};
+		3143ADCE1DF04C67003FDF97 /* LeonMainVC */ = {
+			isa = PBXGroup;
+			children = (
+				3143ADCF1DF04C84003FDF97 /* LeonMainViewController.h */,
+				3143ADD01DF04C84003FDF97 /* LeonMainViewController.m */,
+				3143ADD11DF04C84003FDF97 /* LeonMainViewController.xib */,
+			);
+			name = LeonMainVC;
+			sourceTree = "<group>";
+		};
+		35209D621F1CAAAA00ACDEB7 /* Leon_NSAttributedString_NSMutableAttributedString_NSMutableParagraphStyle */ = {
+			isa = PBXGroup;
+			children = (
+				35209D631F1CAAAA00ACDEB7 /* LeonTestAttributedStringViewController.h */,
+				35209D641F1CAAAA00ACDEB7 /* LeonTestAttributedStringViewController.m */,
+			);
+			path = Leon_NSAttributedString_NSMutableAttributedString_NSMutableParagraphStyle;
+			sourceTree = "<group>";
+		};
+		35209D701F1F06C900ACDEB7 /* GCDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35209D751F1F0A0600ACDEB7 /* Leon_GCDFunctionController.h */,
+				35209D761F1F0A0600ACDEB7 /* Leon_GCDFunctionController.m */,
+			);
+			path = GCDDemo;
+			sourceTree = "<group>";
+		};
+		35209D711F1F082000ACDEB7 /* ParentVC */ = {
+			isa = PBXGroup;
+			children = (
+				35209D721F1F085300ACDEB7 /* Leon_ParentController.h */,
+				35209D731F1F085300ACDEB7 /* Leon_ParentController.m */,
+			);
+			path = ParentVC;
+			sourceTree = "<group>";
+		};
+		3541C94A1F442CC800F7C85F /* Swift版本 */ = {
+			isa = PBXGroup;
+			children = (
+				3541C94B1F442CDB00F7C85F /* Leon_TagsViewController.swift */,
+				3541C94D1F44408B00F7C85F /* Leon_TagsView.swift */,
+			);
+			path = "Swift版本";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3143AD961DF01E26003FDF97 /* LeonCommonFunctionsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3143ADB91DF01E27003FDF97 /* Build configuration list for PBXNativeTarget "LeonCommonFunctionsDemo" */;
+			buildPhases = (
+				3143AD931DF01E26003FDF97 /* Sources */,
+				3143AD941DF01E26003FDF97 /* Frameworks */,
+				3143AD951DF01E26003FDF97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeonCommonFunctionsDemo;
+			productName = LeonCommonFunctionsDemo;
+			productReference = 3143AD971DF01E26003FDF97 /* LeonCommonFunctionsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3143ADAF1DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3143ADBC1DF01E27003FDF97 /* Build configuration list for PBXNativeTarget "LeonCommonFunctionsDemoUITests" */;
+			buildPhases = (
+				3143ADAC1DF01E27003FDF97 /* Sources */,
+				3143ADAD1DF01E27003FDF97 /* Frameworks */,
+				3143ADAE1DF01E27003FDF97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3143ADB21DF01E27003FDF97 /* PBXTargetDependency */,
+			);
+			name = LeonCommonFunctionsDemoUITests;
+			productName = LeonCommonFunctionsDemoUITests;
+			productReference = 3143ADB01DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3143AD8F1DF01E26003FDF97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Leon_;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Leon_;
+				TargetAttributes = {
+					3143AD961DF01E26003FDF97 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					3143ADAF1DF01E27003FDF97 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3143AD961DF01E26003FDF97;
+					};
+				};
+			};
+			buildConfigurationList = 3143AD921DF01E26003FDF97 /* Build configuration list for PBXProject "LeonCommonFunctionsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3143AD8E1DF01E26003FDF97;
+			productRefGroup = 3143AD981DF01E26003FDF97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3143AD961DF01E26003FDF97 /* LeonCommonFunctionsDemo */,
+				3143ADAF1DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3143AD951DF01E26003FDF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3143ADAA1DF01E27003FDF97 /* LaunchScreen.storyboard in Resources */,
+				3143ADCD1DF02321003FDF97 /* LeonTestLeonTagsViewController.xib in Resources */,
+				3143ADA71DF01E27003FDF97 /* Assets.xcassets in Resources */,
+				35EC244C1DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.xib in Resources */,
+				3143ADD31DF04C84003FDF97 /* LeonMainViewController.xib in Resources */,
+				3143ADA51DF01E27003FDF97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3143ADAE1DF01E27003FDF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3143AD931DF01E26003FDF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EC24471DF1217800B6E5A8 /* LeonTestLeonTagsNotXIBCell.m in Sources */,
+				3541C94E1F44408B00F7C85F /* Leon_TagsView.swift in Sources */,
+				35EC244B1DF1219500B6E5A8 /* LeonTestLeonTagsViewXIBCell.m in Sources */,
+				3541C94C1F442CDB00F7C85F /* Leon_TagsViewController.swift in Sources */,
+				3143ADA21DF01E27003FDF97 /* ViewController.m in Sources */,
+				3143ADC51DF021BF003FDF97 /* LeonTagsView.m in Sources */,
+				3143ADCC1DF02321003FDF97 /* LeonTestLeonTagsViewController.m in Sources */,
+				3143ADD21DF04C84003FDF97 /* LeonMainViewController.m in Sources */,
+				35209D741F1F085300ACDEB7 /* Leon_ParentController.m in Sources */,
+				3143AD9F1DF01E26003FDF97 /* AppDelegate.m in Sources */,
+				35209D771F1F0A0600ACDEB7 /* Leon_GCDFunctionController.m in Sources */,
+				35209D651F1CAAAA00ACDEB7 /* LeonTestAttributedStringViewController.m in Sources */,
+				3520806B1E1388EF0019568F /* LeonTestSwiftViewController.swift in Sources */,
+				3143AD9C1DF01E26003FDF97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3143ADAC1DF01E27003FDF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3143ADB51DF01E27003FDF97 /* LeonCommonFunctionsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3143ADB21DF01E27003FDF97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3143AD961DF01E26003FDF97 /* LeonCommonFunctionsDemo */;
+			targetProxy = 3143ADB11DF01E27003FDF97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3143ADA31DF01E27003FDF97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3143ADA41DF01E27003FDF97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3143ADA81DF01E27003FDF97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3143ADA91DF01E27003FDF97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3143ADB71DF01E27003FDF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3143ADB81DF01E27003FDF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3143ADBA1DF01E27003FDF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeonCommonFunctionsDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = LeonCommonFunctionsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.LeonCommonFunctionsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeonCommonFunctionsDemo/LeonCommonFunctionsDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3143ADBB1DF01E27003FDF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeonCommonFunctionsDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = LeonCommonFunctionsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.LeonCommonFunctionsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeonCommonFunctionsDemo/LeonCommonFunctionsDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3143ADBD1DF01E27003FDF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LeonCommonFunctionsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.LeonCommonFunctionsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeonCommonFunctionsDemo;
+			};
+			name = Debug;
+		};
+		3143ADBE1DF01E27003FDF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LeonCommonFunctionsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leon.LeonCommonFunctionsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeonCommonFunctionsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3143AD921DF01E26003FDF97 /* Build configuration list for PBXProject "LeonCommonFunctionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3143ADB71DF01E27003FDF97 /* Debug */,
+				3143ADB81DF01E27003FDF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3143ADB91DF01E27003FDF97 /* Build configuration list for PBXNativeTarget "LeonCommonFunctionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3143ADBA1DF01E27003FDF97 /* Debug */,
+				3143ADBB1DF01E27003FDF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3143ADBC1DF01E27003FDF97 /* Build configuration list for PBXNativeTarget "LeonCommonFunctionsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3143ADBD1DF01E27003FDF97 /* Debug */,
+				3143ADBE1DF01E27003FDF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3143AD8F1DF01E26003FDF97 /* Project object */;
+}
